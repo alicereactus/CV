@@ -1,38 +1,287 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.mainBlock {
   min-height: 100vh;
+  max-width: 1000px;
+
+  display: flex;
+  margin: 0 auto;
+}
+
+.sectionWithPhoto {
+  height: 100vh;
+  width: 33%;
+  border: 1px solid;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+  background-color: #282c34;
+}
+
+.sectionWithPhotoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.imgContainer img {
+  width: 60%;
+  height: 100%;
+  border-radius: 130px;
+}
+
+/* My Contacts */
+.myContacts {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+.myContacts h3 {
+  color:rgb(151, 175, 240);
+  text-align: center;
+  font-style: italic;
+}
+
+.myContacts div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 30px;
+  font-size: 15px;
+}
+
+.myContacts div span {
+  margin-left: -15px;
+}
+
+.myContacts div span a {
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.myContacts div span a:hover {
+  color:rgb(151, 175, 240)
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.myContacts img {
+  height: 70%;
+  width: 25%;
+}
+
+/* myTechSkills */
+.myTechSkills {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  font-size: 13px;
+}
+
+.myTechSkills h3 {
+  margin-top: -10px;
+  text-align: center;
+  color:rgb(151, 175, 240);
+  font-style: italic;
+}
+
+.myTechSkillsContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.myTechSkillsContainer div {
+  display: flex;
+  flex-direction: row;
+  height: 33px;
+  width: 29%;
+  margin: 5px;
+  border: 1px solid white;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.myTechSkillsContainer div span {
+  margin-left: 5px;
+}
+
+.myTechSkillsContainer img {
+  height: 80%;
+  width: 30%;
+  background-color: rgb(61, 51, 51);
+  border-radius: 4px;
+}
+
+/* mySoftSkills */
+.mySoftSkills {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+.mySoftSkills h3 {
+  color:rgb(151, 175, 240);
+  text-align: center;
+  font-style: italic;
+}
+
+.mySoftSkillsContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.mySoftSkillsContainer div {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  width: 29%;
+  margin: 5px;
+  border: 1px solid white;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+
+/* myLanguages */
+.myLanguages {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+.myLanguages h3 {
+  color:rgb(151, 175, 240);
+  text-align: center;
+  font-style: italic;
+}
+
+.myLanguagesContainer {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 15px;
+  margin-left: 25px;
+}
+
+.myLanguagesContainer div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 20px;
+  width: 100%;
+  margin: 5px;
+}
+
+.myLanguagesContainer div span {
+  margin-left: 15px;
+}
+
+.myLanguagesContainer img {
+  height: 100%;
+  width: 8%;
+  border-radius: 4px;
+}
+
+.sectionWithText {
+  height: 100vh;
+  width: 65%;
+  border: 1px solid;
+
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 15px;
+}
+
+.sectionWithText h1 {
+  margin-top: -5px;
+  margin-bottom: 0;
+  letter-spacing: 5px;
+  color: rgb(27, 38, 66);
+  text-align: center;
+  font-size: 25px;
+}
+
+.sectionWithText h2 {
+  color: rgb(27, 38, 66);
+  font-style: italic;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.sectionWithText div h3 {
+  text-align: center;
+  font-style: italic;
+  color: rgb(60, 77, 121);
+  font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+.sectionWithText p {
+  text-align: justify;
+  font-size: 14px;
+}
+
+.educationContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  font-size: 14px;
+}
+
+.coursesContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.courseContainer{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  font-size: 14px;
+  margin: 3px
+}
+
+.placeContainer {
+  width: 35%;
+}
+
+.place {
+  font-weight: bold;
+}
+
+.year {
+  color: grey
+}
+
+.location {
+  color: grey
+}
+
+.description {
+  text-align: justify;
+  width: 60%
 }
