@@ -123,9 +123,12 @@ function App() {
           <h3>LANGUAGES</h3>
           <div className='myLanguagesContainer'>
             <div>
-              <img src='https://img.icons8.com/color/2x/russian-federation.png' />
               <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_Belarus_%281918%2C_1991%E2%80%931995%29.svg/1200px-Flag_of_Belarus_%281918%2C_1991%E2%80%931995%29.svg.png' />
-              <span>Russian, Belarusian (native speaker)</span>
+              <span>Belarusian (native speaker)</span>
+            </div>
+            <div>
+              <img src='https://img.icons8.com/color/2x/russian-federation.png' />
+              <span>Russian (native speaker)</span>
             </div>
             <div>
               <img src='https://img.icons8.com/color/2x/great-britain.png' />
@@ -143,6 +146,8 @@ function App() {
       </div>
 
       <div className='sectionWithText'>
+
+      <div className='sectionWithTextContainer'>
         <h1>ALESIA HAIDUKIEVIČ</h1>
         <h2>Frontend Developer</h2>
         <div>
@@ -163,7 +168,7 @@ function App() {
                 <div className='location'>Belarus, Minsk</div>
               </div>
               <div className='description'> Studied and practiced: created reusable React class and functional components (with hooks); created new functionality using TS and JS; wrote unit-tests; created store with Redux; wrote requests to the server using axios; designed
-              project using Material UI. My projects on GitHub: Social Network, Todolist, Currency Exchange, Counter (with hooks), Counter (with Redux), Calculator (native JS). 
+              project using Material UI. My projects: <a href='https://alicereactus.github.io/portfolio/' target='_blank'>click here</a>. 
               </div>
             </div>
             <div className='courseContainer'>
@@ -225,6 +230,7 @@ function App() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
