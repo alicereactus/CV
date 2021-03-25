@@ -10,7 +10,6 @@
 .sectionWithPhoto {
   min-height: 100vh;
   width: 33%;
-  border: 1px solid;
 
   display: flex;
   flex-direction: column;
@@ -71,7 +70,8 @@
 }
 
 .myContacts div span a:hover {
-  color:rgb(151, 175, 240)
+  color:rgb(151, 175, 240);
+  text-decoration: underline;
 }
 
 .myContacts img {
@@ -108,16 +108,14 @@
   flex-direction: row;
   height: 33px;
   width: 29%;
-  margin: 5px;
-  border: 1px solid white;
+  margin: 2px;
   border-radius: 20px;
-  justify-content: center;
   align-items: center;
-  padding: 5px;
+  padding: 2px;
 }
 
 .myTechSkillsContainer div span {
-  margin-left: 5px;
+  margin-left: 3px;
 }
 
 .myTechSkillsContainer img {
@@ -153,13 +151,10 @@
   display: flex;
   flex-direction: row;
   height: 30px;
-  width: 29%;
-  margin: 5px;
-  border: 1px solid white;
+  width: 50%;
   border-radius: 20px;
   justify-content: center;
   align-items: center;
-  padding: 2px;
 }
 
 /* myLanguages */
@@ -180,7 +175,7 @@
   flex-direction: column;
   color: white;
   font-size: 14px;
-  margin-left: 25px;
+  margin-left: 15px;
 }
 
 .myLanguagesContainer div {
@@ -205,7 +200,6 @@
 .sectionWithText {
   min-height: 100vh;
   width: 65%;
-  border: 1px solid;
 
   display: flex;
   flex-direction: column;
@@ -245,7 +239,7 @@
   font-weight: bold;
   margin-top: 7px;
   margin-bottom: 5px;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .sectionWithText p {
@@ -293,4 +287,8 @@
 .description {
   text-align: justify;
   width: 60%
+}
+
+.description div{
+  margin-bottom: 5px;
 }
