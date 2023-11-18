@@ -20,35 +20,30 @@ function App() {
       <div className='sectionWithPhoto'>
 
 <div className='sectionWithPhotoContainer'>
-        <div className='imgContainer'>
-          <img alt='' src={photo} />
-        </div>
+        {/*<div className='imgContainer'>*/}
+        {/*  <img alt='' src={photo} />*/}
+        {/*</div>*/}
 
         <div className='myContacts'>
           <h3>CONTACTS</h3>
           <div>
-            <img src='https://www.flaticon.com/svg/static/icons/svg/3178/3178496.svg' />
-            <span>+375 29 878 86 75</span>
+            <span>Telephone: +48 570 257 171</span>
           </div>
           <div>
-            <img src='https://www.flaticon.com/svg/static/icons/svg/1932/1932718.svg' />
-            <span>8janina@gmail.com</span>
+            <span>E-mail: 8janina@gmail.com</span>
+          </div>
+          {/*<div>*/}
+          {/*  <span>Githu<a href='https://github.com/alicereactus' target='_blank'>alicereactus</a></span>*/}
+          {/*</div>*/}
+          {/*<div>*/}
+          {/*  <img src='https://www.flaticon.com/svg/static/icons/svg/2111/2111368.svg' />*/}
+          {/*  <span><a href='https://www.linkedin.com/in/alice-haidukievich-a88834192/' target='_blank'>alice-haidukievich-a88834192</a></span>*/}
+          {/*</div>*/}
+          <div>
+            <span>Telegram: <a href='https://telegram.me/wolfschpic' target='_blank'>@wolfschpic</a></span>
           </div>
           <div>
-            <img src='https://www.flaticon.com/svg/static/icons/svg/2111/2111290.svg' />
-            <span><a href='https://github.com/alicereactus' target='_blank'>alicereactus</a></span>
-          </div>
-          <div>
-            <img src='https://www.flaticon.com/svg/static/icons/svg/2111/2111368.svg' />
-            <span><a href='https://www.linkedin.com/in/alice-haidukievich-a88834192/' target='_blank'>alice-haidukievich-a88834192</a></span>
-          </div>
-          <div>
-            <img src='https://www.flaticon.com/svg/static/icons/svg/2111/2111545.svg' />
-            <span><a href='https://telegram.me/wolfschpic' target='_blank'>@wolfschpic</a></span>
-          </div>
-          <div>
-            <img src={LocationImage} />
-            <span>Belarus, Poland</span>
+            <span>Location: Poland, Warsaw</span>
           </div>
           <div>
           </div>
@@ -58,48 +53,72 @@ function App() {
           <h3>TECHNICAL SKILLS</h3>
           <div className='myTechSkillsContainer'>
             <div>
-              <img src={ReactJSImage} />
-              <span>ReactJS</span>
+              <img src={JSImage} />
+              <span>JS</span>
             </div>
             <div>
               <img src={TSImage} />
               <span>TS</span>
             </div>
             <div>
-              <img src={JSImage} />
-              <span>JS</span>
+              <img src={ReactJSImage} />
+              <span>ReactJS</span>
             </div>
             <div>
               <img src={ReduxImage} />
               <span>Redux</span>
             </div>
+
+            {/*<div>*/}
+            {/*  <img src={ApiImage} />*/}
+            {/*  <span>REST api, axios</span>*/}
+            {/*</div>*/}
+
             <div>
-              <img src={ApiImage} />
-              <span>REST API</span>
+              <img src={ReduxImage} />
+              <span>Redux-thunk</span>
             </div>
+
             <div>
-              <img src={ApiImage} />
-              <span>axios</span>
+              <img src={ReduxImage} />
+              <span>Redux-saga</span>
             </div>
+
             <div>
-              <img src={HTMLImage} />
-              <span>HTML</span>
+              <img src={ReduxImage} />
+              <span>Redux-epics</span>
             </div>
+
             <div>
-              <img src={CSSImage} />
-              <span>CSS</span>
+              <span>RxJs</span>
             </div>
+
             <div>
-              <img src={ChromeImage} />
-              <span>DevTools</span>
+              <span>GraphQL</span>
             </div>
+
             <div>
-              <img src={MaterialUiImage} />
+              <span>Webpack</span>
+            </div>
+
+            <div>
+              <span>React-router</span>
+            </div>
+
+            <div>
+              <span>Reselect</span>
+            </div>
+
+            <div>
+              <span>Formik</span>
+            </div>
+
+            <div>
               <span>Material UI</span>
             </div>
+
             <div>
-              <img src={GitImage} />
-              <span>Git</span>
+              <span>Playwright, Cypress</span>
             </div>
             <div>
               <span>Unit tests</span>
@@ -136,7 +155,7 @@ function App() {
             </div>
             <div>
               <img src='https://img.icons8.com/color/72/poland.png' />
-              <span>Polish (Elementary) + Pole's Card </span>
+              <span>Polish (Intermediate)</span>
             </div>
           </div>
         </div>
@@ -148,76 +167,78 @@ function App() {
       <div className='sectionWithText'>
 
       <div className='sectionWithTextContainer'>
-        <h1>ALESIA HAIDUKIEVIČ</h1>
+        <h1>ALESIA HAIDUKEVICH</h1>
         <h2>Frontend Developer (ReactJS)</h2>
         <div>
           <h3>SUMMARY</h3>
-          <p>I'm responsible, motivated, easy-to-learn Frontend Developer (RactJS).
-          I like programming because it's interesting for me to create something, to make user interface alive and friendly.
-          I like to study and make my code better, also I like to share experience and learn from other developers.</p>
-          <p>I am 24 y.o. Now I live in Minsk (Belarus) but I consider options such as remote work and moving to another country.</p>
+          <p>
+            I'm responsible, motivated, easy-to-learn Frontend Developer (ReactJS).
+            I like programming because it's interesting for me to create something, to make user interface alive and friendly.
+            I like to study and make my code better. Also I like to share experience.
+          </p>
+          <p>I am a Polish permanent resident. Also I have driver's license</p>
         </div>
         <div>
           <h3>WORK EXPERIENCE</h3>
           <div className='coursesContainer'>
             <div className='courseContainer'>
               <div className='placeContainer'>
+                <div className='place'>Softnetix</div>
+                <div className='position'>Frontend Developer (ReactJS)</div>
+                <div className='year'>April 2021 - Up to now</div>
+                <div className='location'>Poland, Warsaw</div>
+              </div>
+              <div className='description'>
+                <div>Working on a project related with sport statistics:</div>
+                <div>-Developing administrator's personal account using ReactJS, TS, Redux.</div>
+                <div>-Creating new functionality (filters, pagination, forms, tables etc.).</div>
+                <div>-Refactoring way of fetching data replace redux-saga on redux-observable (epics).</div>
+                <div>-Improving performance of project by avoiding overfetching data using GraphQL.</div>
+                <div>-Improving performance of project by using memoized selectors.</div>
+                <div>-Improving design of project due to work with design team by creating new components.</div>
+                <div>-Improving the stable of project by covering it with end-to-end (using playwright) and unit tests.</div>
+              </div>
+            </div>
+            <div className='courseContainer'>
+              <div className='placeContainer'>
                 <div className='place'>Freelance</div>
                 <div className='position'>Frontend Developer (ReactJS)</div>
-                <div className='year'>June 2020 - up to now</div>
+                <div className='year'>June 2020 - March 2021</div>
                 <div className='location'>Belarus, Minsk</div>
               </div>
                 <div className='description'>
                   <div>Worked on an online store:</div>
-                  <div>-Created React functional components (with hooks): made a product card, сreated registration and login pages for users.</div>
-                  <div>-Organized work with the state using Redux.</div>
-                  <div>-Received information about products from the server, filled in product cards with information received from the server using axios, implemented requests for registration of users and for their login.</div>
-                  <div>-Created new functionality using TS and JS (adding and deleting products to the cart, editing product information).</div>
+                  <div>-Created new functionality using React, TS (created forms for adding and deleting products to the cart etc.).</div>
+                  <div>-Organized work with the state of project using Redux.</div>
+                  <div>-Received information from the server using redux-thunk.</div>
                   <div>-Сovered the project with unit tests.</div>
-                  <div>-Designed project using Material UI.</div>
-                  <div><a href='https://alicereactus.github.io/portfolio/' target='_blank'>My portfolio</a>.</div>
               </div>
             </div>
-            {/* <div className='courseContainer'>
-              <div className='placeContainer'>
-                <div className='place'>Accounting outsourcing private enterprise "IQ-consult"</div>
-                <div className='position'>Chief Accountant</div>
-                <div className='year'>August 2019 - June 2020</div>
-                <div className='location'>Belarus, Minsk</div>
-              </div>
-              <div className='description'>Kept accounting of trade and transport organizations, advised
-              organizations in the field of legislation, prepared annual financial statements.
-              Took part in the automation of company's accounting:
-              wrote technical tasks for programmers.</div>
-            </div> */}
-            {/* <div className='courseContainer'>
-              <div className='placeContainer'>
-                <div className='place'>School food factory</div>
-                <div className='position'>Accountant</div>
-                <div className='year'>July 2015 - August 2019</div>
-                <div className='location'>Belarus, Minsk</div>
-              </div>
-              <div className='description'>Kept accounting of materials, did the calculation of dishes, prepared monthly
-              accounting reports.
-              Took part in the automation of the company's accounting: advised programmers in the development of accounting
-              software.</div>
-            </div> */}
           </div>
         </div>
+        {/*<div>*/}
+        {/*  <h3>EDUCATION</h3>*/}
+        {/*  <div className='educationContainer'>*/}
+        {/*    <div className='placeContainer'>*/}
+        {/*      <div className='place'>Belarusian State Economic University</div>*/}
+        {/*      <div className='year'>Aug 2015 - June 2019</div>*/}
+        {/*      <div className='location'>Belarus, Minsk</div>*/}
+        {/*    </div>*/}
+        {/*    <div className='description'>Bachelor's degree. Specialty: Accounting.</div>*/}
+        {/*  </div>*/}
+        {/*</div>*/}
         <div>
           <h3>EDUCATION</h3>
-          <div className='educationContainer'>
-            <div className='placeContainer'>
-              <div className='place'>Belarusian State Economic University</div>
-              <div className='year'>Aug 2015 - June 2019</div>
-              <div className='location'>Belarus, Minsk</div>
-            </div>
-            <div className='description'>Bachelor's degree. Specialty: Accounting.</div>
-          </div>
-        </div>
-        <div>
-          <h3>COURSES</h3>
           <div className='coursesContainer'>
+
+            <div className='courseContainer'>
+              <div className='placeContainer'>
+                <div className='place'>Belarusian State Economic University</div>
+                <div className='year'>Aug 2015 - June 2019</div>
+                <div className='location'>Belarus, Minsk</div>
+              </div>
+              <div className='description'>Bachelor's degree. Specialty: Accounting.</div>
+            </div>
           <div className='courseContainer'>
               <div className='placeContainer'>
                 <div className='place'>Courses IT-incubator</div>

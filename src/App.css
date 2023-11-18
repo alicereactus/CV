@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 
   background-color: #282c34;
 }
@@ -204,7 +204,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background-color: #ffffff;
   padding: 15px;
 }
@@ -258,6 +258,7 @@
 .coursesContainer {
   display: flex;
   flex-direction: column;
+  row-gap: 4px;
 }
 
 .courseContainer{
@@ -265,7 +266,7 @@
   justify-content: space-evenly;
   width: 100%;
   font-size: 14px;
-  margin: 3px
+  /*margin: 3px*/
 }
 
 .placeContainer {
